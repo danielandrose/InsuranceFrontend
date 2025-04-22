@@ -1,0 +1,110 @@
+
+.payment-container {
+    max-width: 500px;
+    margin: 40px auto;
+    padding: 10px 30px;
+    background: #ffffff;
+    border-radius: 12px;
+    box-shadow: 0 0 15px rgba(0, 0, 0, 0.1);
+    font-family: "Poppins", sans-serif;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  
+  .payment-container h1 {
+    text-align: center;
+    margin-bottom: 20px;
+    color: #333;
+  }
+  
+  .payment-container p {
+    font-size: 16px;
+    margin: 10px 0;
+  }
+  
+  .payment-container h3 {
+    margin-top: 25px;
+    font-size: 18px;
+    color: #007bff;
+  }
+  
+  .payment-container input {
+    width: 100%;
+    padding: 10px;
+    margin: 8px 0;
+    font-size: 15px;
+    border: 1px solid #ccc;
+    border-radius: 6px;
+    box-sizing: border-box;
+  }
+  
+  .payment-container button {
+    margin-top: 10px;
+    padding: 10px;
+    width: 70%;
+    background-color: #28a745;
+    border: none;
+    color: white;
+    font-size: 16px;
+    border-radius: 6px;
+    cursor: pointer;
+    transition: background 0.3s ease;
+  }
+  
+  .payment-container button:hover {
+    background-color: #218838;
+  }
+  
+  .status-message {
+    margin-top: 20px;
+    padding: 15px;
+    background: #f8f9fa;
+    border-radius: 8px;
+    text-align: center;
+    
+  }
+  
+  .status-message h3 {
+    margin-bottom: 15px;
+  }
+  
+  .summary-buttons {
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+  }
+  
+  .summary-buttons button {
+    padding: 10px 20px;
+    font-size: 14px;
+    background: #007bff;
+    color: white;
+    border: none;
+    border-radius: 6px;
+    cursor: pointer;
+  }
+  
+  .summary-buttons button:hover {
+    background-color: #0056b3;
+  }
+
+  .payment-status{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  
+  /* Responsive */
+  @media screen and (max-width: 600px) {
+    .payment-container {
+      margin: 20px;
+      padding: 20px;
+    }
+  
+    .summary-buttons {
+      flex-direction: column;
+      gap: 8px;
+    }
+  }
+  
