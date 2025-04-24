@@ -52,7 +52,6 @@ export default function Hero() {
           <div className="no-results">No policies found</div>
         )}
       </div>
-      <ChatBot />
     </div>
   );
 }

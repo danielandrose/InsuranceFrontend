@@ -14,7 +14,7 @@ export default function Admin() {
     duration: ''
   });
 
-  const validPassword = "admin123"; // For dev only, change this in production
+  const validPassword = "admin123"; 
 
   useEffect(() => {
     if (authenticated) fetchPolicies();
